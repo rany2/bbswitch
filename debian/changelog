@@ -1,0 +1,5 @@
+bbswitch (0.4.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #673424)
+
+ -- Aron Xu <aron@debian.org>  Wed, 10 Oct 2012 19:45:33 +0800
