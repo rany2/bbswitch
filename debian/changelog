@@ -1,3 +1,11 @@
+bbswitch (0.5-2) unstable; urgency=low
+
+  * debian/control:
+    - Add Vincent and Yunqiang as Uploaders.
+    - Move to linux-any, since it does not support other platforms.
+
+ -- Aron Xu <aron@debian.org>  Sun, 03 Feb 2013 22:54:14 +0800
+
 bbswitch (0.5-1) unstable; urgency=low
 
   * Initial release (Closes: #673424)
