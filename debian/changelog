@@ -1,4 +1,4 @@
-bbswitch (0.6-1) unstable; urgency=low
+bbswitch (0.6-1) experimental; urgency=low
 
   * New upstream release.
   * debian/control:
