@@ -1,3 +1,9 @@
+bbswitch (0.7-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Vincent Cheng <Vincentc1208@gmail.com>  Wed, 29 May 2013 01:40:23 -0700
+
 bbswitch (0.6-2) unstable; urgency=low
 
   * Upload to unstable.
