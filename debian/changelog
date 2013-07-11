@@ -1,3 +1,9 @@
+bbswitch (0.7-2) unstable; urgency=low
+
+  * Add bbswitch-source package to support module-assistant. (Closes: #715398)
+
+ -- Vincent Cheng <Vincentc1208@gmail.com>  Thu, 11 Jul 2013 01:24:11 -0700
+
 bbswitch (0.7-1) unstable; urgency=low
 
   * New upstream release.
