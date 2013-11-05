@@ -1,3 +1,9 @@
+bbswitch (0.7-3) UNRELEASED; urgency=low
+
+  * Mark bbswitch-dkms as Multi-Arch: foreign. (Closes: #728739)
+
+ -- Vincent Cheng <Vincentc1208@gmail.com>  Tue, 05 Nov 2013 00:34:55 -0800
+
 bbswitch (0.7-2) unstable; urgency=low
 
   * Add bbswitch-source package to support module-assistant. (Closes: #715398)
