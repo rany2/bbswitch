@@ -1,8 +1,11 @@
-bbswitch (0.7-3) UNRELEASED; urgency=low
+bbswitch (0.8-1) unstable; urgency=medium
 
+  * New upstream release.
+    - Fix FTBFS with linux 3.13.
   * Mark bbswitch-dkms as Multi-Arch: foreign. (Closes: #728739)
+  * Update debian/copyright to reflect bbswitch license change to GPL-2+.
 
- -- Vincent Cheng <Vincentc1208@gmail.com>  Tue, 05 Nov 2013 00:34:55 -0800
+ -- Vincent Cheng <Vincentc1208@gmail.com>  Mon, 06 Jan 2014 01:09:07 -0800
 
 bbswitch (0.7-2) unstable; urgency=low
 
