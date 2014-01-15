@@ -6,7 +6,7 @@ bbswitch (0.8-1) unstable; urgency=medium
   * Update debian/copyright to reflect bbswitch license change to GPL-2+.
   * Update Standards version to 3.9.5, no changes required.
 
- -- Vincent Cheng <Vincentc1208@gmail.com>  Mon, 06 Jan 2014 01:09:07 -0800
+ -- Vincent Cheng <vcheng@debian.org>  Wed, 15 Jan 2014 13:19:21 -0800
 
 bbswitch (0.7-2) unstable; urgency=low
 

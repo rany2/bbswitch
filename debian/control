@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: 
  Aron Xu <aron@debian.org>,
- Vincent Cheng <Vincentc1208@gmail.com>,
+ Vincent Cheng <vcheng@debian.org>,
  Yunqiang Su <wzssyqa@gmail.com>
 Build-Depends: debhelper (>= 9), dkms
 Standards-Version: 3.9.5
