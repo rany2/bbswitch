@@ -1,6 +1,8 @@
 bbswitch (0.8-2) UNRELEASED; urgency=medium
 
   * bbswitch-source: Add Recommends: debhelper.
+  * d/rules.modules: Set KDIR to allow building for a different kernel than the
+    running one.  (Closes: #720682)
 
  -- Andreas Beckmann <anbe@debian.org>  Thu, 05 Feb 2015 03:16:45 +0100
 
