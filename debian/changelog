@@ -4,6 +4,7 @@ bbswitch (0.8-2) UNRELEASED; urgency=medium
   * d/rules.modules: Set KDIR to allow building for a different kernel than the
     running one.  (Closes: #720682)
   * bbswitch-source: Use reproducible timestamps inside bbswitch.tar.bz2.
+    (Closes: #778455)
 
  -- Andreas Beckmann <anbe@debian.org>  Thu, 05 Feb 2015 03:16:45 +0100
 
