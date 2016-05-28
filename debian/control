@@ -10,8 +10,8 @@ Uploaders:
 Build-Depends: debhelper (>= 9), dkms, tar (>= 1.28)
 Standards-Version: 3.9.8
 Homepage: https://github.com/Bumblebee-Project/bbswitch
-Vcs-Git: git://anonscm.debian.org/pkg-nvidia/bbswitch.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-nvidia/bbswitch.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-nvidia/bbswitch.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-nvidia/bbswitch.git
 
 Package: bbswitch-dkms
 Architecture: linux-any
