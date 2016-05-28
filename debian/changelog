@@ -1,3 +1,10 @@
+bbswitch (0.8-4) UNRELEASED; urgency=medium
+
+  * Make build reproducible by fixing order of files inside tar archive.
+    (Closes: #803547)
+
+ -- Vincent Cheng <vcheng@debian.org>  Fri, 27 May 2016 17:02:44 -0700
+
 bbswitch (0.8-3) unstable; urgency=medium
 
   * Add myself to Uploaders.
