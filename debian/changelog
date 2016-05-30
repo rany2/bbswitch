@@ -1,4 +1,4 @@
-bbswitch (0.8-4) UNRELEASED; urgency=medium
+bbswitch (0.8-4) unstable; urgency=medium
 
   [ Vincent Cheng ]
   * Make build reproducible by fixing order of files inside tar archive.
@@ -8,7 +8,7 @@ bbswitch (0.8-4) UNRELEASED; urgency=medium
   * Update Standards version to 3.9.8, no changes required.
   * Update Vcs-* URLs.
 
- -- Vincent Cheng <vcheng@debian.org>  Fri, 27 May 2016 17:02:44 -0700
+ -- Vincent Cheng <vcheng@debian.org>  Sun, 29 May 2016 22:41:26 -0700
 
 bbswitch (0.8-3) unstable; urgency=medium
 
