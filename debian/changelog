@@ -1,6 +1,8 @@
 bbswitch (0.8-5) UNRELEASED; urgency=medium
 
   * Add fix-building-against-4.12.patch to fix build on Linux 4.12.
+  * Use https in debian/copyright to be compliant with policy version
+    4.0.0 and bump Standards-Version.
 
  -- Luca Boccassi <luca.boccassi@gmail.com>  Sun, 16 Jul 2017 23:20:44 +0100
 
