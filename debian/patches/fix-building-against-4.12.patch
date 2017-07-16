@@ -1,0 +1,25 @@
+From 322c9625c244d398c859abfd396550030c2970a1 Mon Sep 17 00:00:00 2001
+From: Karol Herbst <karolherbst@gmail.com>
+Date: Sun, 9 Jul 2017 15:51:10 +0200
+Subject: [PATCH] fix building against 4.12
+
+---
+ bbswitch.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/bbswitch.c b/bbswitch.c
+index 341608f..228d722 100644
+--- a/bbswitch.c
++++ b/bbswitch.c
+@@ -31,7 +31,7 @@
+ #include <linux/pci.h>
+ #include <linux/acpi.h>
+ #include <linux/module.h>
+-#include <asm/uaccess.h>
++#include <linux/uaccess.h>
+ #include <linux/suspend.h>
+ #include <linux/seq_file.h>
+ #include <linux/pm_runtime.h>
+-- 
+2.11.0
+

@@ -1,3 +1,9 @@
+bbswitch (0.8-5) UNRELEASED; urgency=medium
+
+  * Add fix-building-against-4.12.patch to fix build on Linux 4.12.
+
+ -- Luca Boccassi <luca.boccassi@gmail.com>  Sun, 16 Jul 2017 23:20:44 +0100
+
 bbswitch (0.8-4) unstable; urgency=medium
 
   [ Vincent Cheng ]
