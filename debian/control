@@ -8,6 +8,7 @@ Uploaders:
  Yunqiang Su <wzssyqa@gmail.com>,
  Luca Boccassi <luca.boccassi@gmail.com>
 Build-Depends: debhelper (>= 9), dkms, tar (>= 1.28)
+Rules-Requires-Root: no
 Standards-Version: 4.0.0
 Homepage: https://github.com/Bumblebee-Project/bbswitch
 Vcs-Browser: https://salsa.debian.org/nvidia-team/bbswitch
