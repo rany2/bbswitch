@@ -1,8 +1,8 @@
 Source: bbswitch
 Section: kernel
-Priority: extra
+Priority: optional
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Uploaders: 
+Uploaders:
  Aron Xu <aron@debian.org>,
  Vincent Cheng <vcheng@debian.org>,
  Yunqiang Su <wzssyqa@gmail.com>,
