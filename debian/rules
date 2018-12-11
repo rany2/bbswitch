@@ -3,11 +3,10 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+include /usr/share/dpkg/pkg-info.mk
+
 name = bbswitch
-# Parse the package version from the changelog, "borrowed" from acpi_call
-version := $(shell dpkg-parsechangelog | grep '^Version:' | cut -d' ' -f2 |\
- rev | cut -d- -f2- | rev | cut -d':' -f2)
-BUILD_DATE	:= $(shell dpkg-parsechangelog --show-field=Date)
+version	 = $(DEB_VERSION_UPSTREAM)
 
 %:
 	dh $@ --with dkms
@@ -34,8 +33,8 @@ override_dh_auto_install:
 	for file in changelog compat control control.modules.in copyright; do \
 		install -m 644 debian/$$file debian/$(name)-source/usr/src/modules/$(name)/debian/; \
 	done
-	find 'debian/$(name)-source/usr/src/modules' -depth -newermt '$(BUILD_DATE)' -print0 | \
-		xargs -0r touch --no-dereference --date='$(BUILD_DATE)'
+	find 'debian/$(name)-source/usr/src/modules' -depth -newermt '@$(SOURCE_DATE_EPOCH)' -print0 | \
+		xargs -0r touch --no-dereference --date='@$(SOURCE_DATE_EPOCH)'
 	cd debian/$(name)-source/usr/src && tar cfj $(name).tar.bz2 --sort=name --mode=go=rX,u+rw,a-s modules && rm -rf modules
 
 override_dh_installchangelogs:
