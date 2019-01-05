@@ -1,11 +1,17 @@
-bbswitch (0.8-6) UNRELEASED; urgency=medium
+bbswitch (0.8-6) unstable; urgency=medium
 
+  [ Andreas Beckmann ]
   * Switch Vcs-* URLs to salsa.debian.org.
   * Set Rules-Requires-Root: no.
   * Set Priority to optional.
   * Use dpkg makefile snippets instead of manual changelog parsing.
 
- -- Andreas Beckmann <anbe@debian.org>  Thu, 05 Apr 2018 20:50:17 +0200
+  [ Luca Boccassi ]
+  * Switch to debhelper compat level 11.
+  * Bump Standards-Version to 4.3.0.
+  * Switch to my debian.org email address.
+
+ -- Luca Boccassi <bluca@debian.org>  Sat, 05 Jan 2019 17:49:43 +0100
 
 bbswitch (0.8-5) unstable; urgency=medium
 
