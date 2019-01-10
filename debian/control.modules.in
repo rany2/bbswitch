@@ -1,16 +1,18 @@
 Source: bbswitch
 Section: kernel
-Priority: extra
+Priority: optional
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Uploaders: 
+Uploaders:
  Aron Xu <aron@debian.org>,
  Vincent Cheng <vcheng@debian.org>,
- Yunqiang Su <wzssyqa@gmail.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.4
+ Yunqiang Su <wzssyqa@gmail.com>,
+ Luca Boccassi <bluca@debian.org>
+Build-Depends: debhelper-compat (= 11)
+Rules-Requires-Root: no
+Standards-Version: 4.3.0
 Homepage: https://github.com/Bumblebee-Project/bbswitch
-Vcs-Git: git://anonscm.debian.org/pkg-nvidia/bbswitch.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-nvidia/bbswitch.git
+Vcs-Browser: https://salsa.debian.org/nvidia-team/bbswitch
+Vcs-Git: https://salsa.debian.org/nvidia-team/bbswitch.git
 
 Package: bbswitch-modules-_KVERS_
 Architecture: all
