@@ -35,7 +35,8 @@ override_dh_auto_install:
 	done
 	find 'debian/$(name)-source/usr/src/modules' -depth -newermt '@$(SOURCE_DATE_EPOCH)' -print0 | \
 		xargs -0r touch --no-dereference --date='@$(SOURCE_DATE_EPOCH)'
-	cd debian/$(name)-source/usr/src && tar cfj $(name).tar.bz2 --sort=name --mode=go=rX,u+rw,a-s modules && rm -rf modules
+	cd debian/$(name)-source/usr/src && tar cfj $(name).tar.bz2 --owner=root \
+		--group=src --sort=name --mode=go=rX,u+rw,a-s modules && rm -rf modules
 
 override_dh_installchangelogs:
 	dh_installchangelogs NEWS
