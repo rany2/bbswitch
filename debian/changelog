@@ -1,3 +1,9 @@
+bbswitch (0.8-8) unstable; urgency=medium
+
+  * bbswitch-source: make build reproducible by using tar --owner --group.
+
+ -- Luca Boccassi <bluca@debian.org>  Sat, 19 Jan 2019 18:38:35 +0000
+
 bbswitch (0.8-7) unstable; urgency=medium
 
   * Sync bbswitch-source module control file with bbswitch.
