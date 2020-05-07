@@ -10,7 +10,9 @@ Files: debian/*
 Copyright: 2011-2012 Peter Lekensteyn <lekensteyn@gmail.com>
            2011-2013 Bruno Pagani <bruno.n.pagani@gmail.com>
            2012 Aron Xu <aron@debian.org>
-           2013-2014 Vincent Cheng <vcheng@debian.org>
+           2013-2016 Vincent Cheng <vcheng@debian.org>
+           2015-2020 Andreas Beckmann <anbe@debian.org>
+           2015-2019 Luca Boccassi <bluca@debian.org>
 License: GPL-2.0+
 
 License: GPL-2.0+

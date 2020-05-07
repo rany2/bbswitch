@@ -7,6 +7,7 @@ Uploaders:
  Vincent Cheng <vcheng@debian.org>,
  Yunqiang Su <wzssyqa@gmail.com>,
  Luca Boccassi <bluca@debian.org>,
+ Andreas Beckmann <anbe@debian.org>,
 Build-Depends:
  debhelper-compat (= 13),
  dkms,
