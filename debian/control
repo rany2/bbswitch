@@ -39,7 +39,7 @@ Multi-Arch: foreign
 Depends:
  ${misc:Depends},
 Recommends:
- debhelper,
+ debhelper-compat (= 11),
  module-assistant,
 Suggests:
  bumblebee,

@@ -30,7 +30,7 @@ override_dh_auto_install:
 	dh_install -p$(name)-source Makefile usr/src/modules/$(name)
 	dh_install -p$(name)-source bbswitch.c usr/src/modules/$(name)
 	install -D -m 0755 debian/rules.modules debian/$(name)-source/usr/src/modules/$(name)/debian/rules
-	for file in changelog compat control control.modules.in copyright; do \
+	set -ex; for file in changelog control control.modules.in copyright; do \
 		install -m 644 debian/$$file debian/$(name)-source/usr/src/modules/$(name)/debian/; \
 	done
 	find 'debian/$(name)-source/usr/src/modules' -depth -newermt '@$(SOURCE_DATE_EPOCH)' -print0 | \
