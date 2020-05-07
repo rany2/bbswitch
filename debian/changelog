@@ -1,6 +1,7 @@
 bbswitch (0.8-9) UNRELEASED; urgency=medium
 
   * Add proposed upstream patch for Linux 5.6 support.  (Closes: #959189)
+  * Run clean target against the kernel version used for building.
 
  -- Andreas Beckmann <anbe@debian.org>  Fri, 01 May 2020 23:30:18 +0200
 
