@@ -1,0 +1,2 @@
+# this package is only built for architectures with the nvidia binary driver
+package-contains-no-arch-dependent-files

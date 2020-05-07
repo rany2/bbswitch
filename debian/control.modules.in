@@ -16,7 +16,7 @@ Vcs-Browser: https://salsa.debian.org/nvidia-team/bbswitch
 Vcs-Git: https://salsa.debian.org/nvidia-team/bbswitch.git
 
 Package: bbswitch-modules-_KVERS_
-Architecture: all
+Architecture: amd64 i386 armhf ppc64el
 Depends:
  linux-image-_KVERS_,
 Provides:
