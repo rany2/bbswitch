@@ -1,6 +1,10 @@
 bbswitch (0.8-10) UNRELEASED; urgency=medium
 
+  [ Andreas Beckmann ]
   * Build for arm64, too.
+
+  [ Vincent Cheng ]
+  * Remove myself from Uploaders.
 
  -- Andreas Beckmann <anbe@debian.org>  Fri, 31 Jul 2020 10:47:52 +0200
 
