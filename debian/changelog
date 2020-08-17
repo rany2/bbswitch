@@ -1,4 +1,4 @@
-bbswitch (0.8-10) UNRELEASED; urgency=medium
+bbswitch (0.8-10) unstable; urgency=medium
 
   [ Andreas Beckmann ]
   * Build for arm64, too.
@@ -6,7 +6,7 @@ bbswitch (0.8-10) UNRELEASED; urgency=medium
   [ Vincent Cheng ]
   * Remove myself from Uploaders.
 
- -- Andreas Beckmann <anbe@debian.org>  Fri, 31 Jul 2020 10:47:52 +0200
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 18 Aug 2020 00:06:37 +0200
 
 bbswitch (0.8-9) unstable; urgency=medium
 
