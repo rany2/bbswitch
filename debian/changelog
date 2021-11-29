@@ -1,5 +1,10 @@
 bbswitch (0.8-11) UNRELEASED; urgency=medium
 
+  [ Andrea Righi ]
+  * Fix build error on architectures that don't have ACPI enabled
+    (LP: #1951583)
+
+  [ Debian Janitor ]
   * Remove constraints unnecessary since buster:
     + Build-Depends: Drop versioned constraint on tar.
   * Update watch file format version to 4.

@@ -1,3 +1,4 @@
 fix-building-against-4.12.patch
 0001-Use-proc_ops-structure-for-kernel-version-5.6.0.patch
 fix-clean.patch
+0002-check-for-power-state-only-if-acpi-is-enabled.patch
