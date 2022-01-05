@@ -18,7 +18,7 @@ Vcs-Git: https://salsa.debian.org/nvidia-team/bbswitch.git
 Testsuite: autopkgtest-pkg-dkms
 
 Package: bbswitch-dkms
-Architecture: amd64 i386 armhf arm64 ppc64el
+Architecture: amd64 i386 arm64
 Multi-Arch: foreign
 Depends:
  dkms,
@@ -34,7 +34,7 @@ Description: Interface for toggling the power on NVIDIA Optimus video cards (dkm
  This package uses DKMS to automatically build the bbswitch kernel module.
 
 Package: bbswitch-source
-Architecture: amd64 i386 armhf arm64 ppc64el
+Architecture: amd64 i386 arm64
 Multi-Arch: foreign
 Depends:
  ${misc:Depends},

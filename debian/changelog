@@ -1,3 +1,10 @@
+bbswitch (0.8-12) UNRELEASED; urgency=medium
+
+  [ Andrea Righi ]
+  * Drop support for armhf and ppc64el (LP: #1956434)
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 11 Apr 2022 12:12:56 +0200
+
 bbswitch (0.8-11) unstable; urgency=medium
 
   [ Andrea Righi ]
