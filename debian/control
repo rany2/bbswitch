@@ -10,7 +10,7 @@ Uploaders:
 Build-Depends:
  debhelper-compat (= 13),
  dkms,
- tar (>= 1.28),
+ tar,
 Rules-Requires-Root: no
 Standards-Version: 4.5.0
 Homepage: https://github.com/Bumblebee-Project/bbswitch

@@ -1,3 +1,10 @@
+bbswitch (0.8-11) UNRELEASED; urgency=medium
+
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on tar.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 02 Feb 2022 20:42:11 -0000
+
 bbswitch (0.8-10) unstable; urgency=medium
 
   [ Andreas Beckmann ]
