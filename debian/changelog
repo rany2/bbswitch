@@ -3,6 +3,7 @@ bbswitch (0.8-11) UNRELEASED; urgency=medium
   * Remove constraints unnecessary since buster:
     + Build-Depends: Drop versioned constraint on tar.
   * Update watch file format version to 4.
+  * Update standards version to 4.6.0, no changes needed.
 
  -- Debian Janitor <janitor@jelmer.uk>  Wed, 02 Feb 2022 20:42:11 -0000
 
