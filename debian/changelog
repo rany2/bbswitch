@@ -1,4 +1,4 @@
-bbswitch (0.8-11) UNRELEASED; urgency=medium
+bbswitch (0.8-11) unstable; urgency=medium
 
   [ Andrea Righi ]
   * Fix build error on architectures that don't have ACPI enabled
@@ -13,7 +13,7 @@ bbswitch (0.8-11) UNRELEASED; urgency=medium
   * Update watch file format version to 4.
   * Update standards version to 4.6.0, no changes needed.
 
- -- Debian Janitor <janitor@jelmer.uk>  Wed, 02 Feb 2022 20:42:11 -0000
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 10 Feb 2022 00:18:18 +0100
 
 bbswitch (0.8-10) unstable; urgency=medium
 
