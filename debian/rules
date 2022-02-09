@@ -9,7 +9,7 @@ name = bbswitch
 version	 = $(DEB_VERSION_UPSTREAM)
 
 %:
-	dh $@ --with dkms
+	dh $@
 
 build:
 

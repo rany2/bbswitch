@@ -9,7 +9,7 @@ Uploaders:
  Andreas Beckmann <anbe@debian.org>,
 Build-Depends:
  debhelper-compat (= 13),
- dkms,
+ dh-sequence-dkms,
 Rules-Requires-Root: no
 Standards-Version: 4.6.0
 Homepage: https://github.com/Bumblebee-Project/bbswitch

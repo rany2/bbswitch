@@ -4,6 +4,9 @@ bbswitch (0.8-11) UNRELEASED; urgency=medium
   * Fix build error on architectures that don't have ACPI enabled
     (LP: #1951583)
 
+  [ Andreas Beckmann ]
+  * Switch to dh-sequence-dkms.
+
   [ Debian Janitor ]
   * Remove constraints unnecessary since buster:
     + Build-Depends: Drop versioned constraint on tar.
