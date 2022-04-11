@@ -5,6 +5,7 @@ bbswitch (0.8-12) UNRELEASED; urgency=medium
 
   [ Andreas Beckmann ]
   * Drop ACPI patch from 0.8-11.
+  * Restrict the autopkgtest to supported architectures.
 
  -- Andreas Beckmann <anbe@debian.org>  Mon, 11 Apr 2022 12:12:56 +0200
 
