@@ -1,3 +1,9 @@
+bbswitch (0.8-13) UNRELEASED; urgency=medium
+
+  * Use experimental dkms feature BUILD_EXCLUSIVE_CONFIG="CONFIG_ACPI".
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 18 Jun 2022 13:46:50 +0200
+
 bbswitch (0.8-12) unstable; urgency=medium
 
   [ Andrea Righi ]

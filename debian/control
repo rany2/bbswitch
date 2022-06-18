@@ -10,6 +10,7 @@ Uploaders:
 Build-Depends:
  debhelper-compat (= 13),
  dh-sequence-dkms,
+ dh-dkms (>= 3.0.3-4~),
 Rules-Requires-Root: no
 Standards-Version: 4.6.0
 Homepage: https://github.com/Bumblebee-Project/bbswitch
