@@ -437,7 +437,7 @@ static int __init bbswitch_init(void) {
 
         acpi_get_name(handle, ACPI_FULL_PATHNAME, &buf);
 
-        if (pdev->vendor == PCI_VENDOR_ID_INTEL) {
+        if (pdev->vendor == PCI_VENDOR_ID_INTEL || pdev->vendor == PCI_VENDOR_ID_ATI) {
             igd_handle = handle;
             pr_info("Found integrated VGA device %s: %s\n",
                 dev_name(&pdev->dev), (char *)buf.pointer);
