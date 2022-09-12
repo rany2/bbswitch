@@ -265,10 +265,15 @@ static void bbswitch_off(void) {
 #ifdef CONFIG_ACPI
     do {
         struct acpi_device *ad = NULL;
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 18, 0)
+        ad = acpi_fetch_acpi_dev(dis_handle);
+        if (!ad) {
+#else
         int r;
 
         r = acpi_bus_get_device(dis_handle, &ad);
         if (r || !ad) {
+#endif
             pr_warn("Cannot get ACPI device for PCI device\n");
             break;
         }
