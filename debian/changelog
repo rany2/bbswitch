@@ -1,3 +1,10 @@
+bbswitch (1:0.8-14) unstable; urgency=medium
+
+  * Revert BUILD_EXCLUSIVE_CONFIG="CONFIG_ACPI", not needed
+    since 83c72d8276626dbb4c0d1abfb1001dfb8b5ae27c
+
+ -- rany <ranygh@riseup.net>  Tue, 13 Sep 2022 09:07:18 +0000
+
 bbswitch (1:0.8-13) unstable; urgency=medium
 
   * Use experimental dkms feature BUILD_EXCLUSIVE_CONFIG="CONFIG_ACPI".
